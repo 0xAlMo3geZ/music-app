@@ -4,13 +4,13 @@
     "version": "0.1.0",
     "private": true,
     "scripts": {
-        "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
-        "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
-        "test:unit": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:unit",
-        "test:unit:update": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:unit -u",
-        "test:e2e": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:e2e",
-        "lint": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint",
-        "i18n:report": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
+        "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+        "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+        "test:unit": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:unit",
+        "test:unit:update": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:unit -u",
+        "test:e2e": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service test:e2e",
+        "lint": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service lint",
+        "i18n:report": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service i18n:report --src \"./src/**/*.?(js|vue)\" --locales \"./src/locales/**/*.json\""
     },
     "dependencies": {
         "@tailwindcss/postcss7-compat": "^2.0.2",
