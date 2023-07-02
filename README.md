@@ -1,6 +1,6 @@
 # music-app
 
-Music app project for Vue.js & tailwindcss practice.
+Music app for Vue.js & tailwindcss practice.
 
 ## Project setup
 
