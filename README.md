@@ -1,6 +1,6 @@
 # music-app
 
-Music app for Vue.js & tailwindcss practice.
+a SoundCloud-like music webapp using Vue.js & Tailwind CSS.
 
 ## Project setup
 
